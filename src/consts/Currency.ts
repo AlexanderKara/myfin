@@ -100,6 +100,11 @@ const CURRENCIES: Record<string, Currency> = {
     code: 'CNY',
     name: '人民币 (Chinese Yuan)',
   },
+    CNY: {
+    symbol: '₽',
+    code: 'RUB',
+    name: 'Российский рубль (Russian Rouble)',
+  },
 };
 
 export type CurrencyCode = keyof typeof CURRENCIES;
