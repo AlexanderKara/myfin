@@ -100,7 +100,7 @@ const CURRENCIES: Record<string, Currency> = {
     code: 'CNY',
     name: '人民币 (Chinese Yuan)',
   },
-    CNY: {
+  RUB: {
     symbol: '₽',
     code: 'RUB',
     name: 'Российский рубль (Russian Rouble)',
